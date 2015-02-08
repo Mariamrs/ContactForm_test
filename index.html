@@ -2,16 +2,20 @@
 <html>
  <head>
   <title>Форма контакта_тест</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
+   <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+     <h1>Уже хотите записаться?</h1>
+     <h2>Выберите садик и заполните все поля формы</h2>
+
  </head>
  <body>
-  <h1>Уже хотите записаться?</h1>
-  <h2>Выберите садик и заполните все поля формы</h2>
-  <h3>Выберите садик</h3>
-  <h3>ФИО</h3>
-  <h3>Телефон</h3>
-  <h3>E-mail</h3>
-  <h3>Записаться в садик</h3>
+  <form action="zapros.php" method="POST">
+      <p>Выберите садик<select name="sadic"maxlength="20"></select></p>
+      <p>ФИО<input type="text" name="fio"></p>
+      <p>Телефон<input type="text" name="phone"></p>
+      <p>E-mail<input type="text" name="e-mail"></p>
+      <p><input type="image" src="button.jpg" name="button"</p>
+  </form>
  </body>
 </html>

@@ -1,5 +1,9 @@
 
      h1 {
-     text-transform: uppercase;
-     font-family: a_AvanteRought Light;
-     font-size: 26px;}
+      text-transform: uppercase;
+      font-family: a_AvanteRought Light;
+      font-size: 26px;
+      text-align: center;}
+
+     h2 {
+      text-align: center;
