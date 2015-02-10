@@ -3,19 +3,48 @@
  <head>
   <title>Форма контакта_тест</title>
    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
 
-     <h1>Уже хотите записаться?</h1>
-     <h2>Выберите садик и заполните все поля формы</h2>
+    
 
  </head>
  <body>
+<div class="title">
+     <h1>Уже хотите записаться?</h1>
+     <h2>Выберите садик и заполните все поля формы</h2>
+</div>
+
+<div class="main">
   <form action="zapros.php" method="POST">
-      <p>Выберите садик<select name="sadic"maxlength="20"></select></p>
-      <p>ФИО<input type="text" name="fio"></p>
-      <p>Телефон<input type="text" name="phone"></p>
-      <p>E-mail<input type="text" name="e-mail"></p>
-      <p><input type="image" src="button.jpg" name="button"</p>
+ 
+<div class="forma">
+  <div class="field">
+     <label for="sad">Выберите садик</label>
+     <select id="sad"></select>
+  </div>
+ 
+  <div class="field">
+     <label for="fio">ФИО</label>
+     <input type="text" id="fio"></input>
+  </div>
+
+  <div class="field">
+     <label for="phone">Телефон</label>
+     <input type="text" id="phone"></input>
+  </div>
+
+  <div class="field">
+     <label for="e-mail">E-mail</label>
+     <input type="text" id="e-mail"></input>
+  </div>
+</div> 
+
+
+<div name="button">
+   <input type="image" src="button.jpg" name="button"
+</div>
+</div>
   </form>
  </body>
 </html>
+

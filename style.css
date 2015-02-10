@@ -1,9 +1,32 @@
+@font-face {
+    font-family:a_AvanteRough;
+    src: local("a_AvanteRough")
+          url(a_AvanteRough Light.ttf)
+           }
+    
+body { background: url(background.jpg); }
 
-     h1 {
+ h1 {
       text-transform: uppercase;
       font-family: a_AvanteRought Light;
       font-size: 26px;
       text-align: center;}
 
-     h2 {
-      text-align: center;
+    h2 {text-align:center;}
+
+.main {text-align:center;}
+
+.field {clear:both; text-align:right;line-height:25px;}
+  
+Label {float:left;}  
+
+.forma {float:left;}
+
+ select {
+    width: 173px;
+   }
+
+.button {clear:left;}
+
+.input {
+    font-family:a_AvanteRough;}
