@@ -1,32 +1,48 @@
-@font-face {
-    font-family:a_AvanteRough;
-    src: local("a_AvanteRough")
-          url(a_AvanteRough Light.ttf)
-           }
-    
-body { background: url(background.jpg); }
+body {
+    background: url(background.jpg) center top no-repeat;
+    font-family: 'a_AvanteRough Light', serif;
+}
 
- h1 {
-      text-transform: uppercase;
-      font-family: a_AvanteRought Light;
-      font-size: 26px;
-      text-align: center;}
 
-    h2 {text-align:center;}
+.title {
+    margin-top: 20px;
+}
 
-.main {text-align:center;}
+h1 {
+    text-transform: uppercase;
+    font-size: 26px;
+    text-align: center;
+    font-weight: normal;
+}
 
-.field {clear:both; text-align:right;line-height:25px;}
-  
-Label {float:left;}  
+h2 {
+    text-align:center;
+    font-weight: normal;
+}
 
-.forma {float:left;}
+div.form {
+    width: 424px;
+    margin: 0 auto;
+    padding-left: 10px;
+}
 
- select {
-    width: 173px;
-   }
+.field {
+    margin: 15px 0;
+}
 
-.button {clear:left;}
+div.button {
+    text-align: right;
+}
 
-.input {
-    font-family:a_AvanteRough;}
+.field input,
+.field select {
+    width: 282px;
+    float: right;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.field input {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
